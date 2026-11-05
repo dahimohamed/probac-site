@@ -38,3 +38,8 @@ nav.lang { display: flex; gap: 16px; margin: 8px 0 24px; }
 section[dir="rtl"] { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 8px; }
 .box { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; }
 ul { padding-inline-start: 22px; }
+.cta { margin: 24px 0 4px; }
+a.button { display: inline-block; background: var(--brand); color: #fff; text-decoration: none;
+  font-weight: 600; padding: 12px 22px; border-radius: 12px; }
+a.button:hover { filter: brightness(1.08); }
+@media (prefers-color-scheme: dark) { a.button { color: #0b1420; } }
