@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://probac.app/sitemap.xml
