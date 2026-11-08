@@ -43,3 +43,9 @@ a.button { display: inline-block; background: var(--brand); color: #fff; text-de
   font-weight: 600; padding: 12px 22px; border-radius: 12px; }
 a.button:hover { filter: brightness(1.08); }
 @media (prefers-color-scheme: dark) { a.button { color: #0b1420; } }
+.cta { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+a.button.alt { background: transparent; color: var(--brand); border: 2px solid var(--brand); padding: 10px 20px; }
+.soon { display: inline-block; padding: 10px 16px; border-radius: 12px; border: 1px dashed var(--line);
+  color: var(--muted); font-size: 15px; }
+section.ar { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 8px; }
+@media (prefers-color-scheme: dark) { a.button.alt { color: var(--brand); } }
